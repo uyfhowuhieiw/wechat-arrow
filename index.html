@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no,email=no,address=no">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="申请书提交在那边，不要问我。">
+<title>申请书提交在那边，不要问我</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: calc(32px + env(safe-area-inset-top)) 20px calc(32px + env(safe-area-inset-bottom));
+    background: #fff;
+    color: #111;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  main {
+    width: 100%;
+    max-width: 720px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: clamp(28px, 9.5vw, 72px);
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: 0.04em;
+  }
+
+  .arrow {
+    display: block;
+    width: 82vw;
+    max-width: 500px;
+    height: auto;
+    margin: clamp(36px, 9vh, 88px) auto 0;
+  }
+
+  .arrow path {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>申请书提交在那边<br>不要问我</h1>
+  <svg class="arrow" viewBox="0 0 320 128" role="img" aria-label="向左的箭头">
+    <path d="M300 64 H20 M20 64 L76 16 M20 64 L76 112"/>
+  </svg>
+</main>
+</body>
+</html>
